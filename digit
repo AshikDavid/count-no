@@ -1,6 +1,6 @@
-n=int(input(e number: "))
+number=int(input(e number: "))
 count=0
-while(n>0)
-  n=n/10
-  count=count+1
-print'the umber of digits in the number is:',count
+while(number>0)
+  number=number/10
+  count+=1
+print'the number of digits in the number is:',count
